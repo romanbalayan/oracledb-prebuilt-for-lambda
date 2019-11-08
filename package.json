@@ -1,6 +1,6 @@
 {
   "name": "oracledb-prebuilt-for-lambda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node OracleDB Client, pre-built for AWS Lambda",
   "main": "index.js",
   "directories": {
