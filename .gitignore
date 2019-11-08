@@ -35,3 +35,6 @@ instantclient_12_2
 instantclient_18_3
 instantclient_18_5
 instantclient_19_3
+
+# Dev Ignores
+.idea
