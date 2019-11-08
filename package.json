@@ -24,7 +24,7 @@
   "author": "Roman Balayan <roman.balayan@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url: https://github.com/romanbalayan/oracledb-prebuilt-for-lambda/issues"
+    "url": "https://github.com/romanbalayan/oracledb-prebuilt-for-lambda/issues"
   },
-  "homepage": "https://github.com/romanbalayan/oracledb-prebuilt-for-lambda#readme",
+  "homepage": "https://github.com/romanbalayan/oracledb-prebuilt-for-lambda#readme"
 }
