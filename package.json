@@ -1,0 +1,30 @@
+{
+  "name": "oracledb-prebuilt-for-lambda",
+  "version": "0.0.1",
+  "description": "Node OracleDB Client, pre-built for AWS Lambda",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "postinstall": "unzip -u lambda-lib.zip -d ../../lib && mv ../../lib/libociei.so lib/libociei.so && rm lambda-lib.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanbalayan/oracledb-prebuilt-for-lambda.git"
+  },
+  "keywords": [
+    "Oracle",
+    "oracledb",
+    "AWS",
+    "Lambda",
+    "serverless",
+    "Node.js"
+  ],
+  "author": "Roman Balayan <roman.balayan@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url: https://github.com/romanbalayan/oracledb-prebuilt-for-lambda/issues"
+  },
+  "homepage": "https://github.com/romanbalayan/oracledb-prebuilt-for-lambda#readme",
+}
