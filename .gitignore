@@ -14,7 +14,6 @@ GTAGS
 # Node Ignores
 npm-debug.log
 node_modules
-/build/*
 /examples/clobstream1out.txt
 /examples/blobstream1out.jpg
 /examples/lobselectout.jpg
