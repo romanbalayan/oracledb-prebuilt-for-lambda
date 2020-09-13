@@ -1,7 +1,7 @@
 # node-oracledb-prebuilt-for-lambda
 
  - This module is forked from the currently un-maintained [node-oracledb-for-lambda](https://github.com/nalbion/node-oracledb-for-lambda). 
- - Core oracledb libraries are also derived from [node-oracledb](https://github.com/oracle/node-oracledb) v4.2.0
+ - Core oracledb libraries are also derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.0.0
  - 5.0.0: Prebuilt for use with AWS Lambda nodejs12.x Runtime (Built using nodejsv12.18.3)
  
 The scripts to reproduce the build process can be found at [node-oracledb-lambda-test](https://github.com/romanbalayan/node-oracledb-lambda-test). 
