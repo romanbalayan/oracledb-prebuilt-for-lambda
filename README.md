@@ -1,8 +1,8 @@
 # node-oracledb-prebuilt-for-lambda
 
  - This module is forked from the currently un-maintained [node-oracledb-for-lambda](https://github.com/nalbion/node-oracledb-for-lambda).
- - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.2.0
- - 5.2.0: Prebuilt for use with AWS Lambda nodejs12.x Runtime (Built using nodejsv12.18.3)
+ - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.3.0
+ - 5.3.0: Prebuilt for use with AWS Lambda nodejs12.x Runtime (Built using nodejsv12.18.3)
  - Also tested to work with AWS Lambda nodejs14.x Runtime
  
 The scripts to reproduce the build process can be found at [node-oracledb-lambda-test](https://github.com/romanbalayan/node-oracledb-lambda-test). 
@@ -10,17 +10,18 @@ The scripts to reproduce the build process can be found at [node-oracledb-lambda
 # Usage
 
 ```bash
-npm install --save oracledb-prebuilt-for-lambda@5.2.0
+npm install --save oracledb-prebuilt-for-lambda@5.3.0
 ```
 
 # Versioning
  - Changed release version to match that of underlying node-oracledb version. 
- - i.e. for release based on oracledb 5.2.0, release will be oracledb-prebuilt-for-lambda@5.2.0
+ - i.e. for release based on oracledb 5.3.0, release will be oracledb-prebuilt-for-lambda@5.3.0
  
  
  # Releases
  | node-oracledb       | oracledb-prebuilt-for-lambda    |
  | ------------------- | ---------- |
+ | 5.3.0               | 5.3.0      |
  | 5.2.0               | 5.2.0      |
  | 5.1.0               | 5.1.0      |
  | 5.0.0               | 5.0.0      |
@@ -30,6 +31,7 @@ npm install --save oracledb-prebuilt-for-lambda@5.2.0
 
  
  # Changelog
+ - v5.3.0: [node-oracledb v5.3.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v530-22-oct-2021)
  - v5.2.0: [node-oracledb v5.2.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v520-7-jun-2021)
  - v5.1.0: [node-oracledb v5.1.0 changelog](https://github.com/oracle/node-oracledb/blob/master/CHANGELOG.md#node-oracledb-v510-8-dec-2020)
  - v5.0.0: [node-oracledb v5.0.0 changelog](https://github.com/oracle/node-oracledb/blob/master/CHANGELOG.md#node-oracledb-v500-29-jun-2020)
