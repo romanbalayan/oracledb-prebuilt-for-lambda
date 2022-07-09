@@ -3,7 +3,7 @@
  - This module is forked from the currently un-maintained [node-oracledb-for-lambda](https://github.com/nalbion/node-oracledb-for-lambda).
  - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.4.0
  - 5.4.0: Prebuilt for use with AWS Lambda nodejs12.x Runtime (Built using nodejsv12.18.3)
- - Also tested to work with AWS Lambda nodejs14.x Runtime
+ - Also tested to work with AWS Lambda nodejs14.x and nodejs16.x Runtime
  
 The scripts to reproduce the build process can be found at [node-oracledb-lambda-test](https://github.com/romanbalayan/node-oracledb-lambda-test). 
 
@@ -44,16 +44,22 @@ npm install --save oracledb-prebuilt-for-lambda@5.4.0
  
  # AWS Lambda NodeJS Runtimes
  https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
- Data as of June 17, 2021
+ Data as of July 9, 2022
  
   | Name          | Identifier | Operating System  |
   | ------------- | ---------- | ----------------- |
+  | Node.js 16    | nodejs14.x | AWS Linux 2       |
   | Node.js 14    | nodejs14.x | AWS Linux 2       |
   | Node.js 12    | nodejs12.x | AWS Linux 2       |
-  | Node.js 10    | nodejs10.x | AWS Linux 2       |
  
-  
- 
+ # AWS Lambda Runtime Deprecation Policy
+
+| Name          | Identifier | Operating System  | Deprecation Phase 1 | Deprecation Phase 2 |
+| ------------- | ---------- | ----------------- | ------------------- | ------------------- |
+| Node.js 10    | nodejs10.x | AWS Linux 2       | July 30, 2021       | Feb 14, 2022        |
+| Node.js 8.10  | nodejs8.10 | AWS Linux         | N/A                 | March 6, 2020       |
+
+ # Notes
 Due to the size of the Oracle libraries, you may need to deploy your zip file to S3 and get Lambda to download from the S3 URL.
 
 
