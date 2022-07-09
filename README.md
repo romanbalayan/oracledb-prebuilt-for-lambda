@@ -44,6 +44,7 @@ npm install --save oracledb-prebuilt-for-lambda@5.4.0
  
  # AWS Lambda NodeJS Runtimes
  https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
+ 
  Data as of July 9, 2022
  
   | Name          | Identifier | Operating System  |
@@ -66,4 +67,4 @@ Due to the size of the Oracle libraries, you may need to deploy your zip file to
  # Support
 If you find this module helpful and would like to support me, you can!
 
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="200">](https://www.buymeacoffee.com/romanbalayan)
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="175">](https://www.buymeacoffee.com/romanbalayan)
