@@ -60,4 +60,4 @@ Due to the size of the Oracle libraries, you may need to deploy your zip file to
  # Support
 If you find this module helpful and would like to support me, you can!
 
-[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" height="60" width="271">](https://www.buymeacoffee.com/romanbalayan)
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="BuyMeACoffee" width="200">](https://www.buymeacoffee.com/romanbalayan)
