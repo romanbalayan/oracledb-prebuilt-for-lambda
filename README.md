@@ -1,26 +1,27 @@
 # node-oracledb-prebuilt-for-lambda
 
  - This module is forked from the currently un-maintained [node-oracledb-for-lambda](https://github.com/nalbion/node-oracledb-for-lambda).
- - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.4.0
- - 5.4.0: Prebuilt for use with AWS Lambda nodejs12.x Runtime (Built using nodejsv12.18.3)
- - Also tested to work with AWS Lambda nodejs14.x and nodejs16.x Runtime
+ - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v5.5.0
+ - 5.5.0: Prebuilt for use with AWS Lambda nodejs14.x Runtime (Built using nodejsv14.20.0 (LTS))
+ - Also tested to work with AWS Lambda nodejs12.x and nodejs16.x Runtime
  
 The scripts to reproduce the build process can be found at [node-oracledb-lambda-test](https://github.com/romanbalayan/node-oracledb-lambda-test). 
 
 # Usage
 
 ```bash
-npm install --save oracledb-prebuilt-for-lambda@5.4.0
+npm install --save oracledb-prebuilt-for-lambda@5.5.0
 ```
 
 # Versioning
  - Changed release version to match that of underlying node-oracledb version. 
- - i.e. for release based on oracledb 5.4.0, release will be oracledb-prebuilt-for-lambda@5.4.0
+ - i.e. for release based on oracledb 5.5.0, release will be oracledb-prebuilt-for-lambda@5.5.0
  
  
  # Releases
  | node-oracledb       | oracledb-prebuilt-for-lambda    |
  | ------------------- | ---------- |
+ | 5.5.0               | 5.5.0      |
  | 5.4.0               | 5.4.0      |
  | 5.3.0               | 5.3.0      |
  | 5.2.0               | 5.2.0      |
@@ -32,6 +33,7 @@ npm install --save oracledb-prebuilt-for-lambda@5.4.0
 
  
  # Changelog
+ - v5.5.0: [node-oracledb v5.5.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v550-7-sep-2022)
  - v5.4.0: [node-oracledb v5.4.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v540-9-jun-2022)
  - v5.3.0: [node-oracledb v5.3.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v530-22-oct-2021)
  - v5.2.0: [node-oracledb v5.2.0 changelog](https://github.com/oracle/node-oracledb/blob/main/CHANGELOG.md#node-oracledb-v520-7-jun-2021)
@@ -49,7 +51,7 @@ npm install --save oracledb-prebuilt-for-lambda@5.4.0
  
   | Name          | Identifier | Operating System  |
   | ------------- | ---------- | ----------------- |
-  | Node.js 16    | nodejs14.x | AWS Linux 2       |
+  | Node.js 16    | nodejs16.x | AWS Linux 2       |
   | Node.js 14    | nodejs14.x | AWS Linux 2       |
   | Node.js 12    | nodejs12.x | AWS Linux 2       |
  
