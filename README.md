@@ -1,8 +1,8 @@
 # node-oracledb-prebuilt-for-lambda
 
  - This module is forked from the currently un-maintained [node-oracledb-for-lambda](https://github.com/nalbion/node-oracledb-for-lambda).
- - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v6.1.0
- - 6.1.0: Prebuilt for use with AWS Lambda nodejs18.x Runtime
+ - Core oracledb libraries are derived from [node-oracledb](https://github.com/oracle/node-oracledb) v6.2.0
+ - 6.2.0: Prebuilt for use with AWS Lambda nodejs18.x Runtime
  - Also tested to work with AWS Lambda nodejs14.x, nodejs16.x, and nodejs18.x Runtime
  
 The scripts to reproduce the build process can be found at [node-oracledb-lambda-test](https://github.com/romanbalayan/node-oracledb-lambda-test). 
@@ -10,17 +10,18 @@ The scripts to reproduce the build process can be found at [node-oracledb-lambda
 # Usage
 
 ```bash
-npm install --save oracledb-prebuilt-for-lambda@6.1.0
+npm install --save oracledb-prebuilt-for-lambda@6.2.0
 ```
 
 # Versioning
  - Changed release version to match that of underlying node-oracledb version. 
- - i.e. for release based on oracledb 6.1.0, release will be oracledb-prebuilt-for-lambda@6.1.0
+ - i.e. for release based on oracledb 6.2.0, release will be oracledb-prebuilt-for-lambda@6.2.0
  
  
  # Releases
  | node-oracledb       | oracledb-prebuilt-for-lambda    |
  | ------------------- | ---------- |
+ | 6.2.0               | 6.2.0      |
  | 6.1.0               | 6.1.0      |
  | 6.0.3               | 6.0.3      |
  | 6.0.1               | 6.0.1      |
@@ -36,6 +37,7 @@ npm install --save oracledb-prebuilt-for-lambda@6.1.0
 
  
  # Changelog
+ - v6.2.0: [node-oracledb v6.2.0 changelog](https://node-oracledb.readthedocs.io/en/latest/release_notes.html#node-oracledb-v6-2-0-11-oct-2023)
  - v6.1.0: [node-oracledb v6.1.0 changelog](https://node-oracledb.readthedocs.io/en/latest/release_notes.html#node-oracledb-v6-1-0-30-aug-2023)
  - v6.0.3: [node-oracledb v6.0.3 changelog](https://node-oracledb.readthedocs.io/en/latest/release_notes.html#node-oracledb-v6-0-3-12-jul-2023)
  - v6.0.1: [node-oracledb v6.0.1 changelog](https://node-oracledb.readthedocs.io/en/latest/release_notes.html#node-oracledb-v6-0-1-07-jun-2023)
